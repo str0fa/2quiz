@@ -3,7 +3,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 // connection MongoDB Atlas
-mongoose.connect('mongodb+srv://Ekaterina:Ekaterina@cluster1.jbgpsc6.mongodb.net/Exams23002?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://tempuser:123@cluster0.f9d6o.gcp.mongodb.net/Exams23002', {
+
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
